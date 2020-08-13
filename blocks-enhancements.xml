@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blocks-enhancements>
+	
+	<imports>
+		<import path="com.crazygames.*" />
+	</imports>
+	
+	<block
+		tag="crazygames-event-addremove-listener">
+		<fields>
+			<code order="2"/>
+		</fields>
+	</block>
+	
+</blocks-enhancements>

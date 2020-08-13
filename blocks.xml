@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blocks>
+	
+	<block
+		tag="crazygames-init"
+		spec="init crazygames SDK"
+		code='com.crazygames.CrazySDK.getInstance().init();'
+		type="action"
+		color="gray"
+		returns="void">
+		<fields/>
+	</block>
+	
+	<block
+		tag="crazygames-event-addremove-listener"
+		spec="%1 listener %2 for crazygames event %0"
+		code='com.crazygames.CrazySDK.getInstance().#1EventListener(#0, _customEvent_#2);'
+		type="action"
+		color="gray"
+		returns="void">
+		<fields>
+			<dropdown order="0">
+				<choices>
+					<c text="Ad Started" code="com.crazygames.CrazyEventType.adStarted"/>
+					<c text="Ad Finished" code="com.crazygames.CrazyEventType.adFinished"/>
+					<c text="Ad Error" code="com.crazygames.CrazyEventType.adError"/>
+					<c text="Adblock Detection Executed" code="com.crazygames.CrazyEventType.adblockDetectionExecuted"/>
+				</choices>
+			</dropdown>
+			<dropdown order="1">
+				<choices>
+					<c text="add" code="add"/>
+					<c text="remove" code="remove"/>
+				</choices>
+			</dropdown>
+			<text order="2"/> <!-- code: see blocks-enhancements.xml -->
+		</fields>
+	</block>
+	
+	<block
+		tag="crazygames-request-ad"
+		spec="request %0 crazygames ad"
+		code='com.crazygames.CrazySDK.getInstance().requestAd(#0);'
+		type="action"
+		color="gray"
+		returns="void">
+		<fields>
+			<dropdown order="0">
+				<choices>
+					<c text="Midgame" code="com.crazygames.CrazyAdType.midgame"/>
+					<c text="Rewarded" code="com.crazygames.CrazyAdType.rewarded"/>
+				</choices>
+			</dropdown>
+		</fields>
+	</block>
+	
+	<block
+		tag="crazygames-invite-link"
+		spec="create crazygames invite link with parameters: %0"
+		code='com.crazygames.CrazySDK.getInstance().inviteLink(com.crazygames.CrazyGamesUtil.mapAsObject(#0))'
+		type="normal"
+		color="gray"
+		returns="text">
+		<fields>
+			<map order="0"/>
+		</fields>
+	</block>
+	
+	<block
+		tag="crazygames-happytime"
+		spec="trigger crazygames happytime"
+		code='com.crazygames.CrazySDK.getInstance().happytime();'
+		type="action"
+		color="gray"
+		returns="void">
+		<fields />
+	</block>
+	
+	<block
+		tag="crazygames-gameplay-start"
+		spec="%0 crazygames gameplay"
+		code='com.crazygames.CrazySDK.getInstance().gameplay#0();'
+		type="action"
+		color="gray"
+		returns="void">
+		<fields>
+			<dropdown order="0">
+				<choices>
+					<c text="Start" code="Start"/>
+					<c text="Stop" code="Stop"/>
+				</choices>
+			</dropdown>
+		</fields>
+	</block>
+	
+	<block
+		tag="crazygames-abd-executed"
+		spec="crazygames adblockdetect executed"
+		code='com.crazygames.CrazySDK.getInstance().adblockDetectionExecuted();'
+		type="action"
+		color="gray"
+		returns="void">
+		<fields />
+	</block>
+	
+	<block
+		tag="crazygames-has-adblock"
+		spec="crazygames detected adblock"
+		code='com.crazygames.CrazySDK.getInstance().hasAdBlock();'
+		type="normal"
+		color="gray"
+		returns="boolean">
+		<fields />
+	</block>
+	
+</blocks>
