@@ -65,6 +65,18 @@
 			<map order="0"/>
 		</fields>
 	</block>
+
+	<block
+		tag="crazygames-get-query"
+		spec="get query parameter: %0"
+		code='com.crazygames.CrazyGamesUtil.queryUrlParameter(#0)'
+		type="normal"
+		color="gray"
+		returns="text">
+		<fields>
+			<text order="0"/>
+		</fields>
+	</block>
 	
 	<block
 		tag="crazygames-happytime"

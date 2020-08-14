@@ -13,4 +13,15 @@ class CrazyGamesUtil
     
     	return object;
     }
+
+    public static function queryUrlParameter(field:String):String
+    {
+        var url = js.Browser.window.location.href;
+        var queryPattern = new EReg("[?&]" + field + "=([^&#]*)", "i");
+        if(queryPattern.match(url))
+        {
+            return queryPattern.matched(1);
+        }
+        return null;
+    }
 }
