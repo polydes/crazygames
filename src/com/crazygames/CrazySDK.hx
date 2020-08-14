@@ -45,5 +45,5 @@ extern class CrazySDK
     
     function adblockDetectionExecuted():Void;
     
-    function hasAdBlock():Bool;
+    var hasAdblock(default,null):Bool;
 }

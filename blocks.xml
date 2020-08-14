@@ -106,7 +106,7 @@
 	<block
 		tag="crazygames-has-adblock"
 		spec="crazygames detected adblock"
-		code='com.crazygames.CrazySDK.getInstance().hasAdBlock();'
+		code='com.crazygames.CrazySDK.getInstance().hasAdblock'
 		type="normal"
 		color="gray"
 		returns="boolean">
