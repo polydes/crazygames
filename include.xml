@@ -9,7 +9,7 @@
 		
 		<section unless="publishing">
 			<!-- Only include sdk.html for local testing. -->
-			<templates path="templates" />
+			<template path="templates" />
 			<!-- Use a local copy since we can't access this through xhr from localhost. -->
 			<dependency path="dependencies/crazygames-sdk-v1.js" embed="true" />
 		</section>
