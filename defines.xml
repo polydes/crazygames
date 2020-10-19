@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<defines>
+	<define name="crazygames" description="Enable the crazygames SDK, only when publishing to crazygames.com" />
+</defines>

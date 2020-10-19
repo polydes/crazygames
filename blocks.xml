@@ -124,5 +124,15 @@
 		returns="boolean">
 		<fields />
 	</block>
+
+	<block
+		tag="def-crazygames"
+		spec="crazygames"
+		code="crazygames"
+		type="normal"
+		color="charcoal"
+		returns="boolean">
+		<fields />
+	</block>
 	
 </blocks>
