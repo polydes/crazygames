@@ -33,7 +33,7 @@
 					<c text="remove" code="remove"/>
 				</choices>
 			</dropdown>
-			<text order="2"/> <!-- code: see blocks-enhancements.xml -->
+			<code order="2"/>
 		</fields>
 	</block>
 	
