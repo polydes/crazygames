@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-	<section if="html5 crazygames">
+	<define name="crazygames" unless="configurations" />
+	<section if="crazygames">
 		<source path="src" />
 		
 		<section if="publishing">

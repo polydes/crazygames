@@ -1,8 +1,0 @@
-name=Crazygames
-description=Crazygames SDK wrapper
-author=Justin Espedal
-website=http://www.polydes.com/repo/engine/com.crazygames
-version=1.0.3
-compatibility=all
-dependencies=toolset-com.polydes.configurations-0.0.1,stencyl-4.1.0
-repository=http://www.polydes.com/repo
