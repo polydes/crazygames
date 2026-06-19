@@ -1,0 +1,29 @@
+{
+  "versions":
+  [
+    {
+      "date": "08/14/2020",
+      "changes": "Initial version.",
+      "version": "1.0.0",
+      "dependencies": "toolset-com.polydes.blockdefs-0.1.0,stencyl-4.0.2"
+    },
+    {
+      "date": "08/14/2020",
+      "changes": "Fixed \"crazygames detected adblock\" block.\nAdded block for getting query parameters from url.\nFix block help links.\nMake sure crazygames wrapper is included when testing.",
+      "version": "1.0.1",
+      "dependencies": "toolset-com.polydes.blockdefs-0.1.0,stencyl-4.0.2"
+    },
+    {
+      "date": "10/24/2020",
+      "changes": "Add support for build configurations extension",
+      "version": "1.0.2",
+      "dependencies": "toolset-com.polydes.blockdefs-0.1.0,toolset-com.polydes.configurations-0.0.1,stencyl-4.1.0"
+    },
+    {
+      "date": "06/23/2021",
+      "changes": "Replace dependency on blockdefs with dependency on Stencyl 4.1.0",
+      "version": "1.0.3",
+      "dependencies": "toolset-com.polydes.configurations-0.0.1,stencyl-4.1.0"
+    }
+  ]
+}
