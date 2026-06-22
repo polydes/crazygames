@@ -2,28 +2,52 @@
   "versions":
   [
     {
-      "date": "08/14/2020",
-      "changes": "Initial version.",
+      "date": "2020-08-14",
+      "changes":
+      [
+        "Initial version."
+      ],
       "version": "1.0.0",
-      "dependencies": "toolset-com.polydes.blockdefs-0.1.0,stencyl-4.0.2"
+      "dependencies": ""
     },
     {
-      "date": "08/14/2020",
-      "changes": "Fixed \"crazygames detected adblock\" block.\nAdded block for getting query parameters from url.\nFix block help links.\nMake sure crazygames wrapper is included when testing.",
+      "date": "2020-08-14",
+      "changes":
+      [
+        "Fixed \"crazygames detected adblock\" block.",
+        "Added block for getting query parameters from url.",
+        "Fix block help links.",
+        "Make sure crazygames wrapper is included when testing."
+      ],
       "version": "1.0.1",
-      "dependencies": "toolset-com.polydes.blockdefs-0.1.0,stencyl-4.0.2"
+      "dependencies": ""
     },
     {
-      "date": "10/24/2020",
-      "changes": "Add support for build configurations extension",
+      "date": "2020-10-24",
+      "changes":
+      [
+        "Add support for build configurations extension"
+      ],
       "version": "1.0.2",
-      "dependencies": "toolset-com.polydes.blockdefs-0.1.0,toolset-com.polydes.configurations-0.0.1,stencyl-4.1.0"
+      "dependencies": ""
     },
     {
-      "date": "06/23/2021",
-      "changes": "Replace dependency on blockdefs with dependency on Stencyl 4.1.0",
+      "date": "2021-06-23",
+      "changes":
+      [
+        "Replace dependency on blockdefs with dependency on Stencyl 4.1.0"
+      ],
       "version": "1.0.3",
-      "dependencies": "toolset-com.polydes.configurations-0.0.1,stencyl-4.1.0"
+      "dependencies": ""
+    },
+    {
+      "date": "2026-05-27",
+      "changes":
+      [
+        "Fixes for Stencyl 4.2.0"
+      ],
+      "version": "1.1.0",
+      "dependencies": "stencyl-4.2.0"
     }
   ]
 }
